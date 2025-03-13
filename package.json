@@ -1,0 +1,15 @@
+{
+  "name": "plugin-temp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "package": "kintone-plugin-packer ./app"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@kintone/plugin-packer": "^8.2.0"
+  }
+}

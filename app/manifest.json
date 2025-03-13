@@ -1,0 +1,43 @@
+{
+  "manifest_version": 1,
+  "version": "1.0.0",
+  "type": "APP",
+  "name": {
+    "ja": "テストプラグイン",
+    "en": "Test Plugin",
+    "zh": "測試外掛",
+    "es": "Plugin de prueba"
+  },
+  "description": {
+    "en": "Description of the plugin",
+    "ja": "プラグインの説明",
+    "zh": "外掛的介紹",
+    "es": "Descripción del plugin"
+  },
+  "icon": "image/logo.png",
+  "homepage_url": {
+    "ja": "https://example.com",
+    "en": "https://example.com",
+    "zh": "https://example.com",
+    "es": "https://example.com"
+  },
+  "desktop": {
+    "js": [
+      "js/customize.js"
+    ],
+    "css": []
+  },
+  "mobile": {
+    "js": [
+      "js/customize.js"
+    ],
+    "css": []
+  },
+  "config": {
+    "html": "html/index.html",
+    "js": [
+      "js/config.js"
+    ],
+    "css": []
+  }
+}
